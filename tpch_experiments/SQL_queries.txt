@@ -1,0 +1,58 @@
+Q1
+
+SELECT s_suppkey, o_orderkey
+FROM supplier, lineitem l1, orders, nation
+WHERE s_suppkey = l1.l_suppkey
+AND o_orderkey = l1.l_orderkey
+AND o_orderstatus = 'F'
+AND l1.l_receiptdate > l1.l_commitdate
+AND EXISTS (
+SELECT *
+FROM lineitem l2
+WHERE l2.l_orderkey = l1.l_orderkey
+AND l2.l_suppkey <> l1.l_suppkey )
+AND NOT EXISTS (
+SELECT *
+FROM lineitem l3
+WHERE l3.l_orderkey = l1.l_orderkey
+AND l3.l_suppkey <> l1.l_suppkey
+AND l3.l_receiptdate > l3.l_commitdate )
+AND s_nationkey = n_nationkey
+AND n_name = 'JAPAN';
+
+Q2
+SELECT c_custkey, c_nationkey
+FROM customer
+WHERE c_nationkey IN (13,31,23,29,30,18,17)
+AND c_acctbal > (
+SELECT avg(c_acctbal)
+FROM customer
+WHERE c_acctbal > 0.00 AND c_nationkey IN (13,31,23,29,30,18,17) )
+AND NOT EXISTS (
+SELECT *
+FROM orders
+WHERE o_custkey = c_custkey );
+
+
+Q3
+SELECT o_orderkey
+FROM orders
+WHERE NOT EXISTS (
+SELECT *
+FROM lineitem
+WHERE l_orderkey = o_orderkey
+AND l_suppkey <> 77 );
+
+
+Q4
+SELECT o_orderkey
+FROM orders
+WHERE NOT EXISTS (
+SELECT *
+FROM lineitem, part, supplier, nation
+WHERE l_orderkey = o_orderkey
+AND l_partkey = p_partkey
+AND l_suppkey = s_suppkey
+AND p_name LIKE '%purple%'
+AND s_nationkey = n_nationkey
+AND n_name = 'CANADA' );

@@ -1,0 +1,903 @@
+Verification Log for Q2
+Date: Sun Dec  7 14:50:19 2025
+================================================================================
+
+===== INSTANCE 1 | RATE 0.01 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.01.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.02 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.02.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.03 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.03.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.04 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.04.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.05 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i1_r0.05.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i1_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.01 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.01.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.02 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.02.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.03 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.03.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.04 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.04.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.05 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i2_r0.05.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i2_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.01 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.01.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.02 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.02.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.03 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.03.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.04 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.04.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.05 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i3_r0.05.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i3_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.01 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.01.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.02 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.02.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.03 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.03.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.04 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.04.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.05 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i4_r0.05.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i4_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.01 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.01.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.02 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.02.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.03 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.03.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.04 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.04.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.05 =====
+Command: python3 Q2.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted customer keys from /home/user/Desktop/SQL/KR/verification_results/Q2/temp_inputs_i5_r0.05.json...
+No cache found. Generating new phi_map for Customer Query...
+Loading TPC-H data for Customer Query from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05...
+TPC-H data symbolized successfully.
+Generating phi for 33 targeted customer keys...
+DIAGNOSTIC: Calculated average balance for target nations is 4772.11
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q2/cache_i5_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (0) ---
+None
+
+--- UNCERTAIN KEYS (33) ---
+[942, 357, 1377, 1308, 1437, 672, 1026, 234, 1023, 543, 846, 432, 24, 1230, 1005, 828, 1422, 1470, 1323, 441, 342, 1311, 768, 360, 225, 75, 771, 87, 1305, 147, 1431, 1395, 753]
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 33
+Certain:           0.00%  (0)
+Uncertain:       100.00%  (33)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================

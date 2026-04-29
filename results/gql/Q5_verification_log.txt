@@ -1,0 +1,97 @@
+Verification Log for Q3
+Search Root: C:\python\01-laws\GQL
+Data Root:   C:\python\01-laws\GQL\eu_stringonly
+Date: Thu Dec 11 23:49:35 2025
+================================================================================
+
+===== FILE: 1_null-sf0.1_Q5.json | RATE: 1 =====
+Data Path: C:\python\01-laws\GQL\eu_stringonly\1_null-sf0.1\dynamic
+Cmd: python3 GQL_Q5.py --data_path C:\python\01-laws\GQL\eu_stringonly\1_null-sf0.1\dynamic --keys_file verification_results_gql\\Q5\temp_input_1_null-sf0.1_Q5.json --cache_path verification_results_gql\\Q5\cache_1_null-sf0.1_Q5.json --mode certainty
+----------------------------------------
+Loading targets from verification_results_gql\\Q5\temp_input_1_null-sf0.1_Q5.json...
+Loading data from C:\python\01-laws\GQL\eu_stringonly\1_null-sf0.1\dynamic...
+Generating phi for persons...
+Saving phi_map to verification_results_gql\\Q5\cache_1_null-sf0.1_Q5.json...
+
+============================================================
+  CERTAINTY CHECK
+============================================================
+Certain: 429
+Uncertain: 243
+Not Found: 0
+[Time: 29.00s]
+================================================================================
+
+===== FILE: 2_null-sf0.1_Q5.json | RATE: 2 =====
+Data Path: C:\python\01-laws\GQL\eu_stringonly\2_null-sf0.1\dynamic
+Cmd: python3 GQL_Q5.py --data_path C:\python\01-laws\GQL\eu_stringonly\2_null-sf0.1\dynamic --keys_file verification_results_gql\\Q5\temp_input_2_null-sf0.1_Q5.json --cache_path verification_results_gql\\Q5\cache_2_null-sf0.1_Q5.json --mode certainty
+----------------------------------------
+Loading targets from verification_results_gql\\Q5\temp_input_2_null-sf0.1_Q5.json...
+Loading data from C:\python\01-laws\GQL\eu_stringonly\2_null-sf0.1\dynamic...
+Generating phi for persons...
+Saving phi_map to verification_results_gql\\Q5\cache_2_null-sf0.1_Q5.json...
+
+============================================================
+  CERTAINTY CHECK
+============================================================
+Certain: 337
+Uncertain: 337
+Not Found: 0
+[Time: 29.21s]
+================================================================================
+
+===== FILE: 3_null-sf0.1_Q5.json | RATE: 3 =====
+Data Path: C:\python\01-laws\GQL\eu_stringonly\3_null-sf0.1\dynamic
+Cmd: python3 GQL_Q5.py --data_path C:\python\01-laws\GQL\eu_stringonly\3_null-sf0.1\dynamic --keys_file verification_results_gql\\Q5\temp_input_3_null-sf0.1_Q5.json --cache_path verification_results_gql\\Q5\cache_3_null-sf0.1_Q5.json --mode certainty
+----------------------------------------
+Loading targets from verification_results_gql\\Q5\temp_input_3_null-sf0.1_Q5.json...
+Loading data from C:\python\01-laws\GQL\eu_stringonly\3_null-sf0.1\dynamic...
+Generating phi for persons...
+Saving phi_map to verification_results_gql\\Q5\cache_3_null-sf0.1_Q5.json...
+
+============================================================
+  CERTAINTY CHECK
+============================================================
+Certain: 270
+Uncertain: 409
+Not Found: 0
+[Time: 28.71s]
+================================================================================
+
+===== FILE: 4_null-sf0.1_Q5.json | RATE: 4 =====
+Data Path: C:\python\01-laws\GQL\eu_stringonly\4_null-sf0.1\dynamic
+Cmd: python3 GQL_Q5.py --data_path C:\python\01-laws\GQL\eu_stringonly\4_null-sf0.1\dynamic --keys_file verification_results_gql\\Q5\temp_input_4_null-sf0.1_Q5.json --cache_path verification_results_gql\\Q5\cache_4_null-sf0.1_Q5.json --mode certainty
+----------------------------------------
+Loading targets from verification_results_gql\\Q5\temp_input_4_null-sf0.1_Q5.json...
+Loading data from C:\python\01-laws\GQL\eu_stringonly\4_null-sf0.1\dynamic...
+Generating phi for persons...
+Saving phi_map to verification_results_gql\\Q5\cache_4_null-sf0.1_Q5.json...
+
+============================================================
+  CERTAINTY CHECK
+============================================================
+Certain: 245
+Uncertain: 440
+Not Found: 0
+[Time: 28.78s]
+================================================================================
+
+===== FILE: 5_null-sf0.1_Q5.json | RATE: 5 =====
+Data Path: C:\python\01-laws\GQL\eu_stringonly\5_null-sf0.1\dynamic
+Cmd: python3 GQL_Q5.py --data_path C:\python\01-laws\GQL\eu_stringonly\5_null-sf0.1\dynamic --keys_file verification_results_gql\\Q5\temp_input_5_null-sf0.1_Q5.json --cache_path verification_results_gql\\Q5\cache_5_null-sf0.1_Q5.json --mode certainty
+----------------------------------------
+Loading targets from verification_results_gql\\Q5\temp_input_5_null-sf0.1_Q5.json...
+Loading data from C:\python\01-laws\GQL\eu_stringonly\5_null-sf0.1\dynamic...
+Generating phi for persons...
+Saving phi_map to verification_results_gql\\Q5\cache_5_null-sf0.1_Q5.json...
+
+============================================================
+  CERTAINTY CHECK
+============================================================
+Certain: 222
+Uncertain: 469
+Not Found: 0
+[Time: 29.76s]
+================================================================================
+
+

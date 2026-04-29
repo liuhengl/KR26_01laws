@@ -1,0 +1,878 @@
+Verification Log for Q3
+Date: Sun Dec  7 15:10:07 2025
+================================================================================
+
+===== INSTANCE 1 | RATE 0.01 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.01.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.02 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.02.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.03 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.03.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.04 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.04.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 21 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (21) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 21
+Certain:         100.00%  (21)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.05 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i1_r0.05.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 18 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i1_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (18) ---
+[40384, 17377, 41894, 33923, 3456, 43235, 54306, 46500, 36391, 18148, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 18
+Certain:         100.00%  (18)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.01 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.01.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.02 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.02.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.03 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.03.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 46500, 36391, 18148, 39559, 11367, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.04 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.04.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.05 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i2_r0.05.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i2_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.01 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.01.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.02 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.02.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 21 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (21) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 21
+Certain:         100.00%  (21)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.03 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.03.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 51811, 21029, 9063, 8356, 44551]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.04 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.04.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.05 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i3_r0.05.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i3_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.01 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.01.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.02 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.02.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.03 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.03.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 21 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (21) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 21
+Certain:         100.00%  (21)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.04 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.04.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 21 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (21) ---
+[40384, 17377, 41894, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 21
+Certain:         100.00%  (21)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.05 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i4_r0.05.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i4_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 11367, 52709, 49157, 51811, 21029, 9063, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.01 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.01.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 21 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (21) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 21
+Certain:         100.00%  (21)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.02 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.02.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 51811, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.03 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.03.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.04 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.04.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 22 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (22) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 39559, 11367, 52709, 49157, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 22
+Certain:         100.00%  (22)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.05 =====
+Command: python3 Q3.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05 --keys_file /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted order keys from /home/user/Desktop/SQL/KR/verification_results/Q3/temp_inputs_i5_r0.05.json...
+No cache found. Generating new phi_map for Query 3...
+Loading TPC-H data for Query 3 from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+Generating phi for 20 targeted order keys...
+Phi generation complete.
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q3/cache_i5_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN KEYS (20) ---
+[40384, 17377, 41894, 7748, 33923, 3456, 43235, 24293, 54306, 46500, 36391, 18148, 11367, 52709, 51811, 21029, 9063, 8356, 44551, 55811]
+
+--- UNCERTAIN KEYS (0) ---
+None
+
+--- UNKNOWN KEYS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 20
+Certain:         100.00%  (20)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================

@@ -1,0 +1,928 @@
+Verification Log for Q1
+Date: Sun Dec  7 14:39:34 2025
+================================================================================
+
+===== INSTANCE 1 | RATE 0.01 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.01.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 54 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 54 out of 54 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (54) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 54
+Certain:         100.00%  (54)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.02 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.02.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (50) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (96, 9889), (43, 11078), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(81, 9575)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:          98.04%  (50)
+Uncertain:         1.96%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.03 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.03.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (51) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:         100.00%  (51)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.04 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.04.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 37 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 37 out of 37 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (37) ---
+[(54, 1088), (43, 3075), (54, 3908), (81, 7457), (43, 8352), (81, 9537), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (43, 30757), (43, 30821), (43, 31077), (43, 36132), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (81, 53988), (54, 56769), (81, 57414), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 37
+Certain:         100.00%  (37)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 1 | RATE 0.05 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i1_r0.05.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_1/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 46 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 46 out of 46 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i1_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (44) ---
+[(54, 1088), (43, 1799), (96, 1952), (54, 3908), (81, 7457), (81, 7495), (43, 8352), (81, 9537), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47621), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(54, 48547), (54, 51041)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 46
+Certain:          95.65%  (44)
+Uncertain:         4.35%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.01 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.01.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 54 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 54 out of 54 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (53) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(54, 56769)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 54
+Certain:          98.15%  (53)
+Uncertain:         1.85%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.02 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.02.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (49) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (81, 51810), (54, 52258), (96, 52325), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(96, 29921), (54, 51041)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:          96.08%  (49)
+Uncertain:         3.92%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.03 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.03.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 52 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 52 out of 52 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (52) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 52
+Certain:         100.00%  (52)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.04 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.04.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 48 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 48 out of 48 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (46) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (54, 48547), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (81, 57414), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(96, 29921), (81, 47621)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 48
+Certain:          95.83%  (46)
+Uncertain:         4.17%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 2 | RATE 0.05 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i2_r0.05.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_2/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i2_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (49) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(43, 44224), (54, 56769)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:          96.08%  (49)
+Uncertain:         3.92%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.01 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.01.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 52 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 52 out of 52 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (52) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 52
+Certain:         100.00%  (52)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.02 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.02.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 50 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 50 out of 50 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (50) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 50
+Certain:         100.00%  (50)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.03 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.03.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 53 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 53 out of 53 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (52) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(81, 9575)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 53
+Certain:          98.11%  (52)
+Uncertain:         1.89%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.04 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.04.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 50 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 50 out of 50 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (49) ---
+[(43, 1799), (96, 1952), (43, 3075), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(43, 36995)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 50
+Certain:          98.00%  (49)
+Uncertain:         2.00%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 3 | RATE 0.05 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i3_r0.05.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_3/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 48 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 48 out of 48 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i3_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (45) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (81, 21537), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (54, 56769), (43, 57349), (81, 59589)]
+
+--- UNCERTAIN PAIRS (3) ---
+[(81, 17954), (81, 22500), (96, 56608)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 48
+Certain:          93.75%  (45)
+Uncertain:         6.25%  (3)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.01 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.01.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (51) ---
+[(54, 1088), (43, 1799), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:         100.00%  (51)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.02 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.02.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (51) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:         100.00%  (51)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.03 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.03.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 50 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 50 out of 50 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (50) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (96, 52325), (96, 54119), (96, 56608), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 50
+Certain:         100.00%  (50)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.04 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.04.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 46 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 46 out of 46 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (44) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9575), (96, 9889), (43, 11078), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (96, 27556), (81, 29312), (96, 29921), (43, 30821), (43, 31077), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (96, 54119), (54, 56769), (43, 57349), (81, 57414), (96, 57669)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(81, 47012), (81, 59589)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 46
+Certain:          95.65%  (44)
+Uncertain:         4.35%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 4 | RATE 0.05 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i4_r0.05.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_4/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 47 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 47 out of 47 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i4_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (45) ---
+[(54, 1088), (43, 1799), (43, 3075), (54, 3908), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (54, 43585), (43, 44224), (96, 44325), (81, 45158), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(43, 44711), (81, 57414)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 47
+Certain:          95.74%  (45)
+Uncertain:         4.26%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.01 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.01.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.01.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.01.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.01...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 52 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 52 out of 52 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.01.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (52) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (0) ---
+None
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 52
+Certain:         100.00%  (52)
+Uncertain:         0.00%  (0)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.02 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.02.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.02.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.02.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.02...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 51 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 51 out of 51 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.02.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (50) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (54, 48547), (54, 51041), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(81, 47012)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 51
+Certain:          98.04%  (50)
+Uncertain:         1.96%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.03 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.03.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.03.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.03.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.03...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 52 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 52 out of 52 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.03.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (51) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (96, 9889), (43, 11078), (54, 14272), (81, 17954), (81, 21537), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (81, 47012), (81, 47621), (54, 48547), (81, 51810), (54, 52258), (96, 52325), (81, 53988), (96, 54119), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (1) ---
+[(54, 51041)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 52
+Certain:          98.08%  (51)
+Uncertain:         1.92%  (1)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.04 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.04.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.04.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.04.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.04...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 49 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 49 out of 49 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.04.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (47) ---
+[(43, 1799), (96, 1952), (43, 3075), (54, 3908), (81, 7457), (81, 7495), (96, 8325), (43, 8352), (81, 9537), (81, 9575), (43, 11078), (54, 14272), (81, 17954), (81, 22500), (81, 25479), (81, 25799), (43, 27141), (96, 27556), (81, 29312), (96, 29921), (43, 30757), (43, 30821), (43, 31077), (96, 33476), (43, 34432), (43, 36132), (43, 36995), (43, 37188), (43, 37444), (81, 39397), (81, 42722), (54, 43585), (43, 44224), (96, 44325), (43, 44711), (81, 45158), (54, 48547), (81, 51810), (54, 52258), (81, 53988), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (81, 57414), (96, 57669), (81, 59589)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(81, 47621), (54, 51041)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 49
+Certain:          95.92%  (47)
+Uncertain:         4.08%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
+
+===== INSTANCE 5 | RATE 0.05 =====
+Command: python3 Q1.py --data_path /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05 --pairs_file /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.05.json --cache_path /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.05.json --mode certainty
+----------------------------------------
+Loading targeted pairs from /home/user/Desktop/SQL/KR/verification_results/Q1/temp_inputs_i5_r0.05.json...
+No cache found. Generating new phi_map for targeted pairs...
+Loading and symbolizing TPC-H data from /home/user/Desktop/SQL/KR/tpch_experiments/instance_5/incomplete_data/rate_0.05...
+TPC-H data symbolized and grouped successfully.
+DIAGNOSTIC: Found nation 'JAPAN'.
+Generating phi for 34 targeted pairs...
+DIAGNOSTIC: Actively generated formula components for 34 out of 34 targeted pairs.
+Aggregating results into final phi_map...
+Saving phi_map to /home/user/Desktop/SQL/KR/verification_results/Q1/cache_i5_r0.05.json...
+Save complete.
+
+============================================================
+  CERTAINTY CHECK (Validity Test)
+============================================================
+
+--- CERTAIN PAIRS (32) ---
+[(54, 1088), (43, 1799), (96, 1952), (43, 3075), (54, 3908), (96, 8325), (43, 8352), (96, 9889), (43, 11078), (54, 14272), (43, 27141), (96, 27556), (96, 29921), (43, 30757), (43, 30821), (96, 33476), (43, 34432), (43, 36132), (43, 37188), (43, 37444), (43, 44224), (96, 44325), (43, 44711), (54, 48547), (54, 51041), (54, 52258), (96, 52325), (96, 54119), (96, 56608), (54, 56769), (43, 57349), (96, 57669)]
+
+--- UNCERTAIN PAIRS (2) ---
+[(43, 31077), (43, 36995)]
+
+--- UNKNOWN PAIRS (0) ---
+None
+
+------------------------------------------------------------
+  STATISTICS
+------------------------------------------------------------
+Total Evaluated: 34
+Certain:          94.12%  (32)
+Uncertain:         5.88%  (2)
+Unknown:           0.00%  (0)
+============================================================
+================================================================================
