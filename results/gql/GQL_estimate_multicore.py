@@ -288,6 +288,8 @@ def plot_master_facet_grid(df, k_config, title_suffix=""):
 
     filename = "GQL_Q5_probability_estimation.pdf"
     plt.savefig(filename, dpi=300, bbox_inches='tight')
+    filename = "GQL_Q5_probability_estimation.png"
+    plt.savefig(filename, dpi=300, bbox_inches='tight')
 
 def main():
     parser = argparse.ArgumentParser()
